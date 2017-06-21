@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Barreras de Acceso a la Educación Superior</title>
+    <meta name="description" content="Visualización de la disminución de estudiantes a lo largo del proceso educativo, desde cuarto medio hasta la educación superior." />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="generator" content="Codeply">
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/animate.min.css" />
+    <link rel="stylesheet" href="./css/ionicons.min.css" />
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <nav id="topNav" class="navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand page-scroll" href="index.html"><i class="ion-ios-analytics-outline"></i>Grupo Sin Barreras</a>
+            </div>
+            <div class="navbar-collapse collapse" id="bs-navbar">
+                <ul class="nav navbar-nav">
+                    <li>
+                        <a class="page-scroll" href="mapageneral.html">General</a>
+                    </li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a class="page-scroll" data-toggle="modal" title="Fuentes donde obtuvimos la información" href="#fuentesModal">Fuentes</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" data-toggle="modal" title="Línea de tiempo deserción" href="linea_tiempo.html">Mapa Deserción</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" data-toggle="modal" title="Escribe tu testimonio" href="testimonios.html">Escribe tu testimonio</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <header id="first">
+        <div class="header-content">
+            <div class="inner">
+                <h1 class="cursive">Barreras de Acceso a <br>la Educación Superior</h1>
+                <hr class="primary">
+                <h4>En el modelo actual de educación muchos son los estudiantes que <br>
+                  deciden desertar pero ¿cuántos son los que realmente alcanzan la meta?</h4>
+                <hr>
+               <a href="mapageneral.html" class="btn btn-inicio btn-xl page-scroll">Iniciar</a>
+            </div>
+        </div>
+    </header>
+    <!-- Contact Section/añadido -->
+    <section id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading"> Ingresar Testimonio </h2>
+                    <p> Por favor escribe en las casillas que vienen a continuación. </p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <form name="sentMessage" id="contactForm" novalidate>
+                        <div class="row">
+                            <div class="col-md-6">
+                            <h4 class="section-heading"> Nombre <h4>
+                                <div class="form-group">
+                                    <input type="text" class="form-control" placeholder="Su nombre *" id="name" required data-validation-required-message="Por favor ingresa tu Nombre.">
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                                <div class="col-md-6">
+                                  <h4 class="section-heading"> Región <h4>
+                                    <div class="form-group">
+                                    <input type="email" class="form-control" placeholder="Región *" id="city" required data-validation-required-message="Por favor ingresa tu Región.">
+                                    <p class="help-block text-danger"></p>
+                                    </div>
+                                  </div>
+                                  <div class="col-md-6">
+                                <h4 class="section-heading"> Comuna <h4>
+                                <div class="form-group">
+                                    <input type="email" class="form-control" placeholder="Comuna *" id="city" required data-validation-required-message="Por favor ingresa tu Ciudad.">
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                                </div>
+
+                                <h4 class="section-heading"> Deserción <h4>
+                                    <div class="form-group">
+                                    <select class="form-control" name="Donde se produjo la deserción" placeholder="Elija una opción *">
+                                    <option value="value1"> en 1°,2° o 3° medio</option>
+                                    <option value="value2"> en 4° medio</option>
+                                    <option value="value3"> no di la PSU</option>
+                                    <option value="value4"> no postulé a Universidad o Instituto</option>
+                                    <option value="value5"> no quedé seleccionado en U o IT</option>
+                                    <option value="value6"> no me matriculé en U o IT</option>
+                                    <option value="value7"> en el 1° año de carrera</option>
+                                    <option value="value3"> a partir del 2° año de carrera</option>
+                                    </select>
+                                  <p class="help-block text-danger"></p>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                              <h4 class="section-heading"> Testimonio <h4>
+                                <div class="form-group">
+                                    <textarea class="form-control" placeholder="Su mensaje *" id="message" required data-validation-required-message="Por favor ingresa tu testimonio."></textarea>
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                                </div>
+                            <div class="clearfix"></div>
+                            <div class="col-lg-12 text-center">
+                                <div id="success"></div>
+
+                                <button type="submit" class="btn btn-xl">Enviar</button>
+                          </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer id="footer">
+        <div class="container-fluid">
+            <div class="row">
+              <div class="col-xs-2 col-sm-2 text-center"></div>
+                <div class="col-xs-8 col-sm-8 text-center">
+                    <h4 class="naranjo">Síguenos</h4>
+                    <hr class="light">
+                    <ul class="list-inline">
+                      <li><a rel="nofollow" href="" title="Twitter"><i class="icon-lg ion-social-twitter"></i></a></li>
+                      <li><a rel="nofollow" href="" title="Facebook"><i class="icon-lg ion-social-facebook"></i></a></li>
+                    </ul>
+                </div>
+                <div class="col-xs-2 col-sm-2">
+                  <span class="pull-left text-muted">Grupo Sin Barreras ©2017</span>
+                </div>
+            </div>
+
+        </div>
+    </footer>
+
+    <!--modals FUENTES -->
+    <div id="fuentesModal" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+        <div class="modal-content">
+        	<div class="modal-body">
+        		<h2 class="text-primary">Fuentes</h2>
+        		<h4 class="text-sec">Datos obtenidos de los siguientes recursos.</h4>
+            <br>
+        		<ul>
+        		    <li>This is a single-page Bootstrap template</li>
+                <li>This is a single-page Bootstrap template</li>
+                <li>This is a single-page Bootstrap template</li>
+                <li>This is a single-page Bootstrap template</li>
+                <li>This is a single-page Bootstrap template</li>
+                <li>This is a single-page Bootstrap template</li>
+        		</ul>
+        		<br/>
+        		<button class="btn btn-primary btn-lg center-block" data-dismiss="modal" aria-hidden="true"> OK </button>
+        	</div>
+        </div>
+        </div>
+    </div>
+
+    <!--scripts loaded here -->
+    <script src="./js/jquery.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="./js/jquery.easing.min.js"></script>
+    <script src="./js/wow.js"></script>
+    <script src="./js/scripts.js"></script>
+  </body>
+</html>
