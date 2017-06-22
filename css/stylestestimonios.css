@@ -58,7 +58,14 @@ p {
     line-height: 1.7;
     margin-bottom: 15px;
 }
-
+.testimonio{
+  padding: 30px;
+  margin: 30px;
+  background-color: #eee;
+  color: #333;
+  font-size: 16px;
+  line-height: 1.5;
+}
 .muevete{
   padding-left: 30px;
 }
