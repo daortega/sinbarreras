@@ -281,6 +281,9 @@ header {
     -o-background-size: cover;
 }
 
+.cien{
+  height: 100px;
+}
 header .header-content {
     position: relative;
     width: 100%;
@@ -497,6 +500,9 @@ textarea {
     opacity: 0.7;
 }
 
+.dos55{
+  height: 255px;
+}
 .btn-default:active,
 .btn-default.active,
 .open > .dropdown-toggle.btn-default {
