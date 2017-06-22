@@ -91,6 +91,7 @@ li {
     background-color: #222;
 }
 
+
 .cursive {
     font-family: 'Dancing Script', cursive;
     text-transform: none;
@@ -256,13 +257,15 @@ footer {
 }
 
   .dato-duro{
-    padding-top: 100px;
+    padding-top: 70px;
   }
 
   .destacar{
     font-weight: 700;
   }
-
+.subtitulo{
+  font-style: italic;
+}
 header {
     position: relative;
     min-height: auto;
