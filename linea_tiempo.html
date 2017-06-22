@@ -51,19 +51,20 @@
         <div class="row">
             <div class="col-md-12">
                 <h1 class="cursive">Linea de Tiempo</h1>
-                <h2 class="margin-top-0 text-primary fadeIn" data-wow-delay=".3s">Linea de Tiempo</h2>
             </div>
 
             <div class="linea">
-                <button onclick="document.getElementById('cuarto').src='assets/alumnos/0.png'">Desertan 4to medio
-                </button>
-                <button onclick="document.getElementById('psu').src='assets/alumnos/0.png'">No rinden la psu</button>
+                <button onclick="no_cuarto()">Desertan 4to medio</button>
+                <button onclick="no_psu()">No rinden la psu</button>
                 <button onclick="no_postulan()">No postulan a la universidad</button>
-                <button onclick="document.getElementById('seleccion').src='assets/alumnos/0.png'">No son seleccionados
-                </button>
-                <button onclick="document.getElementById('matricula').src='assets/alumnos/0.png'">No se matriculan
-                </button>
+                <button onclick="no_seleccion()">No son seleccionados</button>
+                <button onclick="no_matricula()">No se matriculan</button>
+
+                <img src="assets/linea_tiempo.png" id="linea" width="1200" padding-top="10">
+
             </div>
+
+
 
             <div class="estudiantes">
 
@@ -95,22 +96,16 @@
             </div>
         </div>
     </div>
-</section>
-
-<section id="texto_cuarto">
     <div class="container">
         <div class="row">
-            <div class="col-md-12">
-            <h1 class="cursive" hidden="true">Deserción durante cuarto medio</h1>
-            <p class="text-sec" hidden="true"> Info acerca de esta parte, resumen o algo la la la lorem ipsum
-                holem holem adiosem adiosem </p>
+            <div class="col-lg-12 text-center">
+                <h3 class="section-heading" id="texto_1"> </h3>
+                <hr class="light">
+                <p id="texto_2"> </p>
+            </div>
         </div>
-
     </div>
 
-
-
-    </div>
 
 </section>
 
